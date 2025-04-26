@@ -160,9 +160,6 @@ const Table = () => {
       </table>
 
     </div>
-
   );
 };
-
 export default Table;
-
