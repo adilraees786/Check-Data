@@ -116,7 +116,7 @@ const Table = () => {
                 type="checkbox"
                 className="h-5 w-5"
                 checked={
-                  displayedPosts.length > 0 && selectedId.length === displayedPosts.length
+                  displayedPosts.length > 0 && displayedPosts.every(post => selectedId.includes(post.id))
                 }
                 onChange={handleSelectAll}
               />
