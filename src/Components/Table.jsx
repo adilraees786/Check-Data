@@ -62,12 +62,12 @@ const Table = () => {
     if (activeTab === "A") {
       setTabA(remainingPosts);
       setTabB([...tabB, ...selectedPosts]);
-      setActiveTab("B"); //posts switch to Tab B
+      setActiveTab("B"); //posts move to Tab B
     }
     else {
       setTabB(remainingPosts);
       setTabA([...tabA, ...selectedPosts]);
-      setActiveTab("A"); //posts switch to Tab A
+      setActiveTab("A"); //posts move to Tab A
     }
     setSelectedId([]);
   }
