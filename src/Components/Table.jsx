@@ -44,8 +44,8 @@ const Table = () => {
     }
   };
 
-  console.log("Post", Posts)
-  console.log("Active Button", activeTab)
+  // console.log("Post", Posts)
+  // console.log("Active Button", activeTab)
 
 //Move posts from TabA to TabB or TabB to TabA
   const moveData = () => {
