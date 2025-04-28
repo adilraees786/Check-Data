@@ -85,7 +85,6 @@ const Table = () => {
             className={`bg-blue-600 text-white font-bold w-14 h-8 rounded-md 
               ${activeTab === "A" ? "opacity-100" : "opacity-50"
               }`}
-            
           >
             Tab A
           </button>
@@ -158,7 +157,6 @@ const Table = () => {
           )}
         </tbody>
       </table>
-
     </div>
   );
 };
