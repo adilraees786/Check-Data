@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Table/>
-    </div>b
+    </div>
   )
 }
 
