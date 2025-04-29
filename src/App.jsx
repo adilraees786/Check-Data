@@ -3,10 +3,11 @@ import Table from './Components/Table'
 
 const App = () => {
 
+ 
+
   return (
     <div>
-      <Table/>
-    
+      <Table />
     </div>
   )
 }
